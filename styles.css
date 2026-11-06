@@ -412,9 +412,14 @@ h1 em {
   color: #b3261e;
 }
 
-.mensaje__texto &gt; :first-child {
+.mensaje__texto > :first-child {
   margin-top: 0;
 }
+
+.mensaje__texto > :last-child {
+  margin-bottom: 0;
+}
+  
 
 .mensaje__texto &gt; :last-child {
   margin-bottom: 0;
